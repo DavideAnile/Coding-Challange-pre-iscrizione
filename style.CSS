@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+
+}
+
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+ /*Background box*/
+.Contenitore{
+  width: 1200px;
+  height: 850px;
+  background-color: rgba(0,0,0,0.5);
+  margin: 50px auto auto auto;
+  border-radius: 20px;
+  font-family: Ubuntu;
+}
+
+header{
+  text-align: center;
+}
+
+/*Logo e testo*/
+.Logo{
+ width: 20%;
+ height: 20%;
+ margin-top: 80px;
+
+
+}
+
+.Textlogo{
+  margin: 0;
+  color: lime;
+
+
+}
+
+/* Prenotazioni e luci*/
+section{
+  width: 85%;
+  height: 45px;
+  padding-top: 10px;
+  margin: auto;
+  background-color: lime;
+  text-align: center;
+}
+
+
+ /* Tutti i monopattini*/
+.Allmonos{
+  margin-left: 85px;
+}
+
+h2{
+  display: inline-block;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+h3{
+  margin: 0;
+  color: rgb(169,169,169);
+}
+
+/* Indicatore carica Gino22*/
+.MonoGino22{
+  width: 350px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgb(255,192,0);
+}
+
+/* Indicatore carica Mike24*/
+.MonoMike24{
+  width: 600px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: Green;
+}
+
+/* Indicatore carica Fede154*/
+.MonoFede154{
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: red;
+}
